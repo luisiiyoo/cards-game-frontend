@@ -15,8 +15,7 @@ import {
 } from '../model/backendResponse';
 import { Game } from '../model/game';
 
-const { backendProtocol, backendHost, backendPort } = frontConfig;
-const BACKEND_URL = `${backendProtocol}://${backendHost}:${backendPort}`;
+const { backendHost:BACKEND_URL } = frontConfig;
 
 export class BackendConnector {
   async checkBackendHealth(): Promise<boolean> {
