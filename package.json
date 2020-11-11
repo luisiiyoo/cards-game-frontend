@@ -5,7 +5,10 @@
     "email": "luis.gonzalez.guzman.93@gmail.com",
     "url": "https://www.linkedin.com/in/luis-gonz%C3%A1lez-guzm%C3%A1n-2b464b139/"
   },
-  "version": "0.1.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": "12.11.1"
+    }
   "private": true,
   "dependencies": {
     "@trendmicro/react-sidenav": "^0.5.0",
