@@ -95,3 +95,15 @@ For more information about github PRs: [Github Docs](https://help.github.com/en/
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+
+<!-- "scripts": {
+    "dev": "PORT=3030 HOST=0.0.0.0 react-scripts start",
+    "start": "PORT=3030 HOST=0.0.0.0 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --cache --ext .ts,.tsx --format=pretty --fix ./",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css, md}'",
+    "type:check": "tsc"
+  }, -->
