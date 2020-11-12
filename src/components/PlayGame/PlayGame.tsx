@@ -20,7 +20,7 @@ const SearchPanel: React.FC<SearchPanelProps> = ({
   return (
     <div className="SearchPanel">
       <input
-        placeholder="Search game"
+        placeholder="Search game by ID"
         value={idGame}
         onChange={handleOnChangeIdSearch}
         disabled={disableIdInput}
